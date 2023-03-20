@@ -1,0 +1,3 @@
+[submodule "docker-multifeeder"]
+	path = docker-multifeeder
+	url = git@github.com:kk-sonata/docker-multifeeder.git
