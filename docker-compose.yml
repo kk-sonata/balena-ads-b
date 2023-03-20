@@ -223,16 +223,17 @@ services:
       - ALT=
       - READSB_NET_CONNECTOR=
         dump1090-fa,30005,beast_in;
+        feed.adsb.fi,30004,beast_reduce_plus_out;
         feed.adsb.one,64004,beast_reduce_plus_out;
         in.adsb.lol,30004,beast_reduce_plus_out;
         feed.theairtraffic.com,30004,beast_reduce_plus_out;
         feed.planespotters.net,30004,beast_reduce_plus_out;
-        data.avdelphi.com,24999,beast_out;
       - MLAT_CONFIG=
         feed.adsb.one,64006,39001;
         in.adsb.lol,31090,39002;
         feed.theairtraffic.com,31090,39003;
         mlat.planespotters.net,31090;
+        feed.adsb.fi,31090,39000;
     expose:
       - "39000"
       - "39001"
